@@ -32,3 +32,12 @@ body{
 .bottom{
     background-color: #D45366;
 }
+@media (max-width: 600px) {
+    .container{
+        width: 100%;
+    }
+    .main__button{
+        width: 100%;
+    }
+
+}
