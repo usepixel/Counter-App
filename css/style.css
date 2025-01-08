@@ -1,21 +1,25 @@
+
 body{
     font-weight: 700;
     font-family: 'Manrope';
     font-size: 32px;
+    background-color: rgba(255, 235, 238, 0.9); /* Очень светлый розовый */
+
+
 }
 .container{
     max-width: 530px;
     margin: 0px auto;
     padding: 0px 15px;
 }
-.main__wrapper-block{
+.wrapper{
     margin-top: 126px;
 }
-.main__number{
+.counter{
     text-align: center;
     line-height: 44px;
 }
-.main__button{
+button{
     width: 500px;
     height: 100px;
     border-radius: 20px;
@@ -26,17 +30,17 @@ body{
     color: #FFFFFF;
     margin-top: 36px;
 }
-.top{
+.button_top{
     background-color: #4191FF;
 }
-.bottom{
+.button_bottom{
     background-color: #D45366;
 }
 @media (max-width: 600px) {
     .container{
         width: 100%;
     }
-    .main__button{
+    .button_top{
         width: 100%;
     }
 
